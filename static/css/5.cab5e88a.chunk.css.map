@@ -1,0 +1,1 @@
+{"version":3,"sources":["AppAlert.css","Customers.css"],"names":[],"mappings":"AAAA,cACI,UAAW,CAGX,cAEJ,CCNA,4BACI,iBACJ","file":"5.cab5e88a.chunk.css","sourcesContent":[".Alert .alert{\r\n    width: 100%;\r\n    /* position: absolute;\r\n    right: 1rem; */\r\n    z-index: 393939;\r\n    /* top: 1rem; */\r\n}",".datatable.table-responsive{\r\n    overflow-x: hidden;\r\n}"]}

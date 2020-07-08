@@ -1,0 +1,1 @@
+{"version":3,"sources":["AppAlert.css"],"names":[],"mappings":"AAAA,cACI,UAAW,CAGX,cAEJ","file":"29.4ab604ff.chunk.css","sourcesContent":[".Alert .alert{\r\n    width: 100%;\r\n    /* position: absolute;\r\n    right: 1rem; */\r\n    z-index: 393939;\r\n    /* top: 1rem; */\r\n}"]}
