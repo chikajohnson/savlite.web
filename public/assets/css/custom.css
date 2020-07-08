@@ -1,0 +1,44 @@
+.bg-cust-navy{
+    background: #183153 !important;
+}
+
+.bg-cust-dark{
+    background: #001c40 !important;
+}
+
+.bg-cust-warm{
+ background-color: #ffc078 !important;
+}
+
+.bg-cust-light{
+    background-color: #ffc078ed !important;
+}
+
+.color-cust-navy{
+    color: #183153 !important;
+}
+
+.color-dark-navy{
+    color: #263f44;
+}
+
+.color-cust-warm{
+ color: #ffc078 !important;
+}
+
+.color-cust-light{
+    color: #ffc078ed;
+}
+
+.link-dark, .link-dark:hover, .link-dark:active{
+    text-decoration: none !important;
+    color: #183153 !important;
+}
+
+td{
+    font-weight: 600;
+}
+
+.selectedLink{
+    color: red;
+}

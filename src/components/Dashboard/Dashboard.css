@@ -1,0 +1,351 @@
+.App-landing {
+  background-color: #E5E5E5;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.btn-link {
+  color: #002C52 !important;
+  font-weight: 500;
+}
+
+
+
+.btn-link:hover {
+  text-decoration: none;
+}
+
+.empty-panel {
+  background-color: #142841;
+  height: 20px;
+  ;
+}
+
+.nav-panel {
+  display: flex;
+  background-color: #4395D1;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.nav-panel .end {
+  display: flex;
+}
+
+.nav-panel button {
+  min-width: 160px;
+  margin: 0 10px;
+  color: white;
+  border-radius: 10px;
+  padding: .675rem 0;
+  font-weight: bold;
+  font-size: 0.8rem;
+  ;
+}
+
+.App-landing .carousel-indicators {
+  bottom: 4rem;
+}
+
+.nav-panel button:hover {
+  color: #E5E5E5;
+}
+
+.nav-panel button.login {
+  background-color: #0D4165;
+}
+
+.nav-panel button.register {
+  background-color: #03144A;
+}
+
+.logo {
+  width: 150px;
+
+}
+
+.logo-title {
+  color: #fff;
+  margin-left: 20px;
+  font-style: italic;
+  font-size: 22px;
+}
+
+
+/* .banner {
+  /* height: 400px; */
+  /* background-image: url(/images/banner.png); */
+  /* background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top; 
+} */
+
+/*
+ * Override bootstrap invalid field focus color
+ */
+/* .was-validated .form-control:invalid:focus, .form-control.is-invalid:focus{
+  border-color: none;
+  border-bottom-color: #e3342f;
+  box-shadow: none;
+} */
+
+
+/* slider entities*/
+
+.carousel-content {
+  
+  position: absolute;
+  top: 30%;
+  right: 12%;
+  z-index: 20;
+  color: white;
+}
+
+.carousel-content .bonus {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.carousel-content .welcome{
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 1;
+  margin-right: 10rem;
+  color: rgb(139, 121, 114);
+}
+
+.carousel-content .trivia-home{
+  color: rgb(104, 103, 103);
+  text-shadow: 0 1px 2px rgba(44, 44, 44, 0.6);
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1;
+
+}
+
+.carousel-content .slide-win{
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: bold;
+}
+.carousel-content .slide-btn1{
+  background-color: rgb(235, 48, 163);
+  margin-left :5rem;
+
+}
+
+.carousel-content .slide-btns{
+  color: white;
+  border-radius: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  padding-left: 3rem;  
+  padding-right: 3rem;
+}
+
+.carousel-content .slide-btn2{
+  background-image: linear-gradient(to right,rgb(230, 176, 125), rgb(226, 127, 34) ); 
+}
+
+/* end of slider entities */
+
+.minion-banner{
+  background-color: #4495D1; 
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.minion-banner h1{
+  font-weight: bold;
+}
+
+.minion-banner span{
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 23px;
+  line-height: 42px;
+
+}
+
+.arrow{
+  margin-right: 5rem;
+}
+
+.pre-footer{
+  display:flex;
+}
+
+.minion-description{
+  margin:auto;
+}
+
+.category-banner{
+  display : flex;
+  justify-content: space-between;
+  font-weight: bolder;
+  font-size: 40px;
+  line-height: 130px;
+  color: #463C3C;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+}
+.category-banner div{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 400px;
+  height: 300px;
+  margin: auto;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+.sports{
+  background-image: url('/images/sport.png');
+}
+.music{
+  background-image: url('/images/music.png');
+}
+.movies{
+  background-image: url('/images/movies.png');
+}
+
+.play-now{
+  display:flex;
+  background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, #D9D9D9 100%);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  color:  #ED462E;
+  margin-top: 3rem;
+}
+.ellipse{
+  width: 20%;
+  margin-left: 0.5rem;
+}
+/** Footer: **/
+
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer .footer-top {
+  background-color: #13253C;
+  text-align: center;
+  padding: 3rem;
+}
+
+.footer .logo {
+  padding: 20px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+footer .links {
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #fff;
+  border-width: thin;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+footer .links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.copyright {
+  background: #3F4B66;
+  padding: 2rem;
+  color: #B5B1B1;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* media queries for screen size less than  600px */
+@media screen and (max-width: 810px) {
+  .Anonymous-container .start {
+    flex-direction: column;
+  }
+  .Anonymous-container .start .logo-title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .App-landing .end button {
+    min-width: 90px;
+    font-size: 0.8rem;
+  }
+  .minion{
+    width : 400px;
+  }
+
+  .sports .movies .music{
+    background-position: cover;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .Anonymous-container {
+    min-width: 320px;
+  }
+
+  .nav-panel {
+    flex-flow: column;
+  }
+
+  .App-landing .end {
+    padding-top: 10px;
+  }
+
+  .App-landing .end button {
+    min-width: 80px;
+    font-size: 0.7rem;
+  }
+
+  .App-landing .start .logo-title {
+    margin-left: 0;
+    font-size: 14px;
+    padding-top: 10px;
+    display: block;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  footer .links li a{
+    font-size: 0.7rem;
+  }
+
+  
+}
+
+@media screen and (max-width: 480px) {
+  footer .links{
+    display: flex;
+    flex-flow: column;
+  }
+}

@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap);
+
+:root {
+  --blue: #3490dc;
+  --indigo: #6574cd;
+  --purple: #442C88;
+  --pink: #f66d9b;
+  --red: #e3342f;
+  --orange: #f6993f;
+  --yellow: #FFC001;
+  --green: #38c172;
+  --teal: #4dc0b5;
+  --cyan: #6cb2eb;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #3490dc;
+  --secondary: #6c757d;
+  --success: #38c172;
+  --info: #6cb2eb;
+  --warning: #FFC001;
+  --danger: #e3342f;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: "Roboto", sans-serif;
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+  /* font-family: "Roboto", sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 0.9rem;
+
+}
+/* 
+html,
+body {
+  height: 100%;
+} */
+
+.App {
+  text-align: center;
+}
+
+.App-loading {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-loading-simple {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+.btn-link {
+  padding: 0;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* pwa install */
+.hidden {
+  display: none !important;
+}
+
+#installContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  background: #f47a0b;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+#installContainer .label{
+  font-weight: 500;
+    font-size: .8rem;
+    color: #fff;
+    padding: 0 1rem;
+}
+
+#installContainer button {
+  background-color: #fff;
+    border: 1px solid white;
+    color: inherit;
+    font-size: 1em;
+    padding: 0.5em;
+    border-radius: 1rem;
+    width: 8rem;
+}
+
+.App-loading {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-loading-simple {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
