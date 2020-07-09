@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8f34d848160fff043299e9cc5323a639",
+    "revision": "2e4bd837daa8b7bd515e2000e9593a5b",
     "url": "/savlite.web/index.html"
   },
   {
