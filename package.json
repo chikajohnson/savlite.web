@@ -1,6 +1,5 @@
 {
   "name": "cashingame",
-  "homepage": "https://chikajohnson.github.io/savlite.web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
