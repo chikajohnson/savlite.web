@@ -1,1 +1,0 @@
-{"version":3,"sources":["Charge.css","AppAlert.css"],"names":[],"mappings":"AAAA,4BACI,iBACJ,CCFA,cACI,UAAW,CAGX,cAEJ","file":"12.8d3a486f.chunk.css","sourcesContent":[".datatable.table-responsive{\r\n    overflow-x: hidden;\r\n}",".Alert .alert{\r\n    width: 100%;\r\n    /* position: absolute;\r\n    right: 1rem; */\r\n    z-index: 393939;\r\n    /* top: 1rem; */\r\n}"]}

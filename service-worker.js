@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/savlite.web/precache-manifest.264d9999647c8e1cd326f2fdf8e444fd.js"
+  "/savlite.web/precache-manifest.8e9fe6a35294fd9f2aa175203955bcab.js"
 );
 
 self.addEventListener('message', (event) => {
