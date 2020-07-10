@@ -18,7 +18,7 @@ const ViewCustomer = (props) => {
             .then(resp => {
                 setCustomer(resp);
             });
-    }, [])
+    }, [custId])
 
     return (
         <React.Fragment>

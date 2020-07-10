@@ -4,7 +4,9 @@ import store from './store';
 import { logout } from './actions';
 
 const superagent = superagentPromise(_superagent, global.Promise);
-const API_ROOT = 'http://54.160.116.227/savlite/api';
+
+//const API_ROOT = 'http://localhost:50978/api';
+const API_ROOT = 'https://savliteapi.azurewebsites.net/api';
 let token = null;
 const responseBody = res => res.body;
 

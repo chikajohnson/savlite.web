@@ -16,7 +16,7 @@ const ApproveTransaction = (props) => {
     const dispatch = useDispatch();
     const error = useSelector(state => state.common.error);
     const isLoading = useSelector(state => state.common.fetching);
-    const { register, errors, handleSubmit } = useForm();
+    const { handleSubmit } = useForm();
     const [transaction, setTransaction] = useState({});
 
     const custId = props.match.params.id;

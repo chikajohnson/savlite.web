@@ -15,7 +15,6 @@ import {
   walletLoaded,
   profileLoaded,
   rankLoaded,
-  plansLoaded,
   avatarUploaded,
   uploadingAvatar,
   avatarUploadFailed,

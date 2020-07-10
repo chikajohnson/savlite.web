@@ -17,7 +17,6 @@ const DeleteTransaction = (props) => {
 
     const deleteSelectedTransaction = (transaction) => {
         console.log(transaction);
-        alert(transaction.amount)
         dispatch(deleteTransaction(transaction.id));
     }
 

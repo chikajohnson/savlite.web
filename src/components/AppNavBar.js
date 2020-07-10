@@ -8,7 +8,7 @@ const AppNavBar = (props) => {
                 <ul className="navbar-nav align-items-center ml-auto">
                     <li className="nav-item dropdown no-caret mr-3">
                         <div className="dropdown-menu dropdown-menu-right py-0 o-hidden mr-n15 mr-lg-0 animated--fade-in-up" aria-labelledby="navbarDropdownDocs">
-                            <a className="dropdown-item py-3" href="https://docs.startbootstrap.com/sb-admin-pro" target="_blank"
+                            <a className="dropdown-item py-3" href="https://docs.startbootstrap.com/sb-admin-pro" target="_blank" rel="noopener noreferrer" 
                             ><div className="icon-stack bg-primary-soft text-primary mr-4"><i data-feather="book"></i></div>
                                 <div>
                                     <div className="small text-gray-500">Documentation</div>
@@ -16,7 +16,7 @@ const AppNavBar = (props) => {
                             </div></a
                             >
                             <div className="dropdown-divider m-0"></div>
-                            <a className="dropdown-item py-3" href="https://docs.startbootstrap.com/sb-admin-pro/components" target="_blank"
+                            <a className="dropdown-item py-3" href="https://docs.startbootstrap.com/sb-admin-pro/components" target="_blank" rel="noopener noreferrer" 
                             ><div className="icon-stack bg-primary-soft text-primary mr-4"><i data-feather="code"></i></div>
                                 <div>
                                     <div className="small text-gray-500">Components</div>
@@ -24,7 +24,7 @@ const AppNavBar = (props) => {
                             </div></a
                             >
                             <div className="dropdown-divider m-0"></div>
-                            <a className="dropdown-item py-3" href="https://docs.startbootstrap.com/sb-admin-pro/changelog" target="_blank"
+                            <a className="dropdown-item py-3" href="https://docs.startbootstrap.com/sb-admin-pro/changelog" target="_blank" rel="noopener noreferrer" 
                             ><div className="icon-stack bg-primary-soft text-primary mr-4"><i data-feather="file-text"></i></div>
                                 <div>
                                     <div className="small text-gray-500">Changelog</div>

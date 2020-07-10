@@ -28,7 +28,7 @@ const AppSideBar = (props) => {
                             {/* users */}
                             {
                                 ['IsSuperAdmin','IsAdministrator', 'IsCashier'].includes(user?.role) &&
-                                <NavLink className="nav-link collapsed" to="users"
+                                <NavLink className="nav-link collapsed" to="/users"
                                 ><div className="nav-link-icon"><i data-feather="layout"></i></div>
                                     <span className="color-cust-warm">Users</span>
                                     <div className="sidenav-collapse-arrow"></div></NavLink>
@@ -36,19 +36,19 @@ const AppSideBar = (props) => {
 
 
                             {/* Customers */}
-                            <NavLink className="nav-link collapsed"  to="customers"
+                            <NavLink className="nav-link collapsed"  to="/customers"
                             ><div className="nav-link-icon"><i data-feather="package"></i></div>
                                 <span className="color-cust-warm">Customers</span>
                                 <div className="sidenav-collapse-arrow"></div></NavLink>
 
                             {/* Charges */}
-                            <NavLink className="nav-link collapsed"  to="charges"
+                            <NavLink className="nav-link collapsed"  to="/charges"
                             ><div className="nav-link-icon"><i data-feather="tool"></i></div>
                                 <span className="color-cust-warm">Charges</span>
                                 <div className="sidenav-collapse-arrow"></div></NavLink>
 
                             {/* Cards */}
-                            <NavLink className="nav-link collapsed"  to="cards"
+                            <NavLink className="nav-link collapsed"  to="/cards"
                             ><div className="nav-link-icon"><i data-feather="tool"></i></div>
                                 <span className="color-cust-warm">Cards</span>
                                 <div className="sidenav-collapse-arrow"></div></NavLink>

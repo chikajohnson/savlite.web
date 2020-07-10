@@ -97,13 +97,13 @@ const ListCustomers = (props) => {
                                                             <td>{cust.phoneNumber}</td>
                                                             <td>{cust.rate}</td>
                                                             <td className="text-left">
-                                                                <a href={`/customers/edit/` + cust.id} className="text-dark" title="edit customer">
+                                                                <Link to={`/customers/edit/` + cust.id} className="text-dark" title="edit customer">
                                                                     <i class="far fa-2x fa-edit"></i>
-                                                                </a>
+                                                                </Link>
                                                                 &nbsp; &nbsp; &nbsp;
-                                                                <a href={`/customers/delete/` + cust.id}className="text-danger" title="delete customer">
+                                                                <Link to={`/customers/delete/` + cust.id}className="text-danger" title="delete customer">
                                                                     <i class="far fa-trash-alt fa-2x"></i>
-                                                                </a>
+                                                                </Link>
                                                             </td>
                                                         </tr>
                                                     )
@@ -120,9 +120,9 @@ const ListCustomers = (props) => {
                                     <div class="col-sm-12 col-md-7">
                                         <div class="dataTables_paginate paging_simple_numbers float-right  mr-5" id="dataTable_paginate">
                                             <ul class="pagination">
-                                                <li class="paginate_button page-item previous disabled" id="dataTable_previous"><a href="#" aria-controls="dataTable" data-dt-idx="0" tabindex="0" class="page-link">Previous</a></li>
-                                                <li class="paginate_button page-item active"><a href="#" aria-controls="dataTable" data-dt-idx="1" tabindex="0" class="page-link">1</a></li>
-                                                <li class="paginate_button page-item next disabled" id="dataTable_next"><a href="#" aria-controls="dataTable" data-dt-idx="2" tabindex="0" class="page-link">Next</a></li>
+                                                <li class="paginate_button page-item previous disabled" id="dataTable_previous"><Link to="#" aria-controls="dataTable" data-dt-idx="0" tabindex="0" class="page-link">Previous</Link></li>
+                                                <li class="paginate_button page-item active"><Link to="#" aria-controls="dataTable" data-dt-idx="1" tabindex="0" class="page-link">1</Link></li>
+                                                <li class="paginate_button page-item next disabled" id="dataTable_next"><Link to="#" aria-controls="dataTable" data-dt-idx="2" tabindex="0" class="page-link">Next</Link></li>
                                             </ul>
                                         </div>
                                     </div>
